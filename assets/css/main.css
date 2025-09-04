@@ -1,0 +1,49 @@
+:root{
+  --bg: #0b0e12;
+  --fg: #e8e8ea;
+  --muted:#9aa0a6;
+  --accent:#7aa2f7;
+  --accent-2:#b48ead;
+  --maxw: 850px;
+  --radius: 16px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:var(--maxw);margin:0 auto;padding:1.2rem}
+
+.site-header{background:
+  radial-gradient(1200px 400px at 10% -10%, rgba(122,162,247,0.08), transparent 60%),
+  radial-gradient(800px 300px at 90% -20%, rgba(180,142,173,0.08), transparent 60%),
+  linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-bottom:1px solid rgba(255,255,255,0.06);
+  position:sticky;top:0;backdrop-filter:saturate(120%) blur(6px);z-index:10;}
+.site-header .brand{font-weight:700;letter-spacing:0.3px}
+.nav a{margin-left:1rem;color:var(--fg)}
+.nav a:hover{color:var(--accent)}
+
+.hero{padding:4rem 0;background:
+  radial-gradient(900px 300px at -10% 0%, rgba(122,162,247,0.12), transparent 60%),
+  radial-gradient(700px 240px at 110% 10%, rgba(180,142,173,0.10), transparent 60%);}
+.hero-inner{max-width:var(--maxw);margin:0 auto;padding:0 1.2rem}
+.hero h1{font-size:2.2rem;margin:0 0 0.8rem 0}
+.hero .intro{color:var(--muted);max-width:60ch;line-height:1.6}
+
+.posts h2{font-size:1.4rem}
+.post-list{list-style:none;padding:0;margin:1rem 0}
+.post-list li{padding:1rem;border:1px solid rgba(255,255,255,0.06);border-radius:var(--radius);margin-bottom:1rem;background:rgba(255,255,255,0.01)}
+
+.post h1{margin-top:0}
+.meta{color:var(--muted);font-size:0.95rem}
+.content p{line-height:1.7}
+
+.site-footer{border-top:1px solid rgba(255,255,255,0.06);padding:1rem 0;margin-top:2rem}
+.lang-switcher a, .lang-switcher span{margin-left:0.6rem}
+.lang-switcher .active{color:var(--accent-2);font-weight:600}
+
+/* code blocks */
+pre,code{background:rgba(255,255,255,0.06);border-radius:10px}
+pre{padding:0.8rem;overflow:auto}
+code{padding:0.15rem 0.35rem}

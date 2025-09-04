@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ site.active_lang | default: site.default_lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% include nav.html %}
+      </div>
+    </header>
+
+    <main class="site-main container">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-left">
+          <span>© {{ 'now' | date: '%Y' }} AJ</span>
+        </div>
+        <div class="footer-right">
+          {% include lang-switcher.html %}
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

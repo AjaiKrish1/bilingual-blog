@@ -1,0 +1,43 @@
+title: "AJ | Science × Philosophy"
+description: "A bilingual blog exploring materials science, digital twins, and the philosophy of science."
+url: "" # Set this to your GitHub Pages URL, e.g., https://username.github.io
+baseurl: "" # Leave empty for user/organization site
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Include/Exclude
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - .github
+
+# i18n with Polyglot
+plugins:
+  - jekyll-polyglot
+
+languages: ["en", "de"]
+default_lang: "en"
+parallel_localization: true
+exclude_from_localization:
+  - assets
+  - favicon.ico
+  - CNAME
+  - .github
+
+# Author
+author:
+  name: "AJ"
+  email: ""
+  twitter_username: ""
+  github_username: ""
+
+# Collections (optional; can add later)
+collections:
+  posts:
+    output: true

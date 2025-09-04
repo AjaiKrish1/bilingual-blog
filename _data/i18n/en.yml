@@ -1,0 +1,15 @@
+nav:
+  home: "Home"
+  about: "About"
+home:
+  title: "Science × Philosophy"
+  intro: "Hi, I'm AJ — a materials scientist exploring microstructures, digital twins, and how scientific practice connects to philosophy."
+  latest_posts: "Latest posts"
+post:
+  published: "Published"
+about:
+  title: "About me"
+  body: |
+    I'm AJ, a materials scientist who enjoys building digital tools for understanding microstructures and writing about how scientific ideas evolve.
+    This blog blends **technical notes** with **reflections on philosophy of science**.
+    If you'd like to collaborate or say hi, feel free to open an issue on GitHub or reach out via email.

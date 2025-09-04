@@ -1,0 +1,16 @@
+nav:
+  home: "Startseite"
+  about: "Über mich"
+home:
+  title: "Wissenschaft × Philosophie"
+  intro: "Hallo, ich bin AJ — Materialwissenschaftler, der Mikrostrukturen, digitale Zwillinge und die Verbindung zwischen Wissenschaftspraxis und Philosophie erforscht."
+  latest_posts: "Neueste Beiträge"
+post:
+  published: "Veröffentlicht"
+about:
+  title: "Über mich"
+  body: |
+    Ich bin AJ, ein Materialwissenschaftler, der gerne digitale Werkzeuge zur Analyse von Mikrostrukturen entwickelt
+    und darüber schreibt, wie sich wissenschaftliche Ideen weiterentwickeln.
+    Dieser Blog verbindet **technische Notizen** mit **Überlegungen zur Wissenschaftsphilosophie**.
+    Wenn du Kontakt aufnehmen möchtest, schreib mir gerne eine E‑Mail.
